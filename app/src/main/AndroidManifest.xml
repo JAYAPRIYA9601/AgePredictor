@@ -4,10 +4,7 @@
     package="com.gagan.agepredictor">
 
     <uses-feature android:name="android.hardware.camera.any" />
-
-
-
-
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:name=".AgePredictionApplication"
@@ -26,6 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Add the ObjectDetectionActivity -->
     </application>
 
 </manifest>
